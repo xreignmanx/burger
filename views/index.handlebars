@@ -3,9 +3,9 @@
 <h2>Available Burgers!</h2>
 
 <ul>
-  {{#each burgers}}
+  {{#each burger}}
     {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
+      {{> burger/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
@@ -13,9 +13,9 @@
 <h2>Unavailable because they're delicious!</h2>
 
 <ul>
-  {{#each burgers}}
+  {{#each burger}}
     {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
+      {{> burger/burger-block devoured=false}}
     {{/if}}
   {{/each}}
 </ul>

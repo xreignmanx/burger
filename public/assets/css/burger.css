@@ -1,19 +1,43 @@
+body {
+  background-color: tan;
+
+}
+h1 {
+  font-family: Cambria;
+  background-color: brown;
+  text-align: center;
+  font-size: 48px;
+
+}
+h2 {
+  font-family: Cambria;
+  background-color: gold; 
+  text-align: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  font-family: Cambria;
+  background: gold;
+
 }
 
 .label {
   font-weight: bold;
+  font-family: Cambria;
+  text-align: center;
+
 }
 
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  font-family: Cambria;
+  background: rgb(97, 67, 2);
 }
 
 .form-group {
   margin-bottom: 5px;
+  font-family: Cambria;
 }
